@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../assets/logo.jpg'
 import BackImg from './BackImg'
+import FoodMenu from './FoodMenu'
 
 
 function Navbar() {
@@ -19,6 +20,7 @@ function Navbar() {
         </nav>
        
         <BackImg /> 
+        <FoodMenu />
        
         
            </div>
