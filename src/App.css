@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  background-color:  #333;
+  color: crimson;
+  display: flex;
+
+}
+nav img{
+  margin-left: 120px;
+  width: 100px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 10%;
+}
+nav span{
+  margin-top: 25px;
+  font-size: 25px;
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+  /* display: flex; */
+  font-size: 25px;
+  margin-left: 650px;
+  padding: 10px 4px;
+  display: flex;
+  gap: 20px;
+}
+li{
+padding: 15px;
+}
+
+
