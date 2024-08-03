@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../assets/logo.jpg'
+import BackImg from './BackImg'
 
 function Navbar() {
   return (
@@ -16,6 +17,7 @@ function Navbar() {
             </ul>
         </nav>
        
+        <BackImg />
            </div>
   )
 }
