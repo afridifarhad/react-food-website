@@ -2,9 +2,10 @@ import React from 'react'
 import Logo from '../assets/logo.jpg'
 import BackImg from './BackImg'
 
+
 function Navbar() {
   return (
-    <div>
+    <div> 
         <nav>
             <img src={Logo} alt="notshowing" /> <span>wowFood</span>
             <ul>
@@ -17,8 +18,13 @@ function Navbar() {
             </ul>
         </nav>
        
-        <BackImg />
+        <BackImg /> 
+       
+        
            </div>
+         
+
+         
   )
 }
 
