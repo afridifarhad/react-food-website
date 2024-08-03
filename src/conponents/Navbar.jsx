@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../assets/logo.jpg'
 import BackImg from './BackImg'
 import FoodMenu from './FoodMenu'
+import Footer from './Footer'
 
 
 function Navbar() {
@@ -21,6 +22,7 @@ function Navbar() {
        
         <BackImg /> 
         <FoodMenu />
+        <Footer />
        
         
            </div>

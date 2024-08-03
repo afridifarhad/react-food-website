@@ -156,6 +156,7 @@ margin: 10px;
  background-color: #fff;
  border-radius: 8px;
  border: none;
+ 
 }
 
 .menu-img img{
@@ -202,11 +203,30 @@ margin: 10px;
    padding: 30px;
    gap: 20px;
   /* border: 2px solid black ; */
-  
+  margin-bottom: 30px;
 }
 
 
 .food-menu h4{
   color: crimson;
   text-align: center;
+  padding: 30px;
+}
+/*------------------Footers------------- */
+.icons{
+  text-align: center;
+}
+.icons{
+ width: 100%;
+ 
+ padding: 20px;
+ height: 300px;
+ font-size: 40px;
+
+}
+.icons span{
+  padding: 10px;
+}
+.icons p{
+  font-size: 16px;
 }
