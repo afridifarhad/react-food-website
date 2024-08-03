@@ -157,12 +157,15 @@ margin: 10px;
  border-radius: 8px;
  border: none;
 }
+
 .menu-img img{
   width: 140px;
   height: 150px;
   border-radius: 30px;
   padding: 20px;
+ 
 }
+
 .desc{
   width: 400px;
   padding: 20px;
@@ -197,6 +200,13 @@ margin: 10px;
   flex-wrap: wrap;
   justify-content: center;
    padding: 30px;
-   gap: 10px;
-  border: 2px solid black ;
+   gap: 20px;
+  /* border: 2px solid black ; */
+  
+}
+
+
+.food-menu h4{
+  color: crimson;
+  text-align: center;
 }
