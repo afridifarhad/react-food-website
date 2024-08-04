@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 nav{
-  background-color:  #a1a0a0;
+  background-color:  #ffffff;
   color: crimson;
   display: flex;
 
@@ -12,16 +12,21 @@ nav{
 nav img{
   margin-left: 120px;
   width: 100px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  border-radius: 10%;
+  height: 70px;
+  
+  border: none;
+  
 }
 nav span{
   margin-top: 25px;
   font-size: 25px;
-  color: white;
+  color: black;
+  
 }
-
+nav span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
 ul{
   list-style-type: none;
   /* display: flex; */
@@ -30,10 +35,18 @@ ul{
   padding: 10px 4px;
   display: flex;
   gap: 20px;
+
 }
 li{
 padding: 15px;
 }
+li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+
+
 
 /*----------------------- BackImg------------- */
 .backImg{
@@ -71,6 +84,11 @@ padding: 15px;
   color: white;
   border-radius: 4px;
   border: none;
+}
+.backImg button:hover{
+  cursor: pointer;
+  background-color: red;
+  
 }
 
 /* Explor-Food */
@@ -112,7 +130,6 @@ margin: 10px;
   width: 250px;
   height: 320px;
   transition: transform .4s;
-  
 }
 .explore-food img:hover{
   transform: scale(1.2);
@@ -180,6 +197,9 @@ margin: 10px;
   position: absolute;
   margin-top: 30px;
 }
+.desc h3:hover{
+  text-decoration: underline;
+}
 .desc p{
   position: absolute;
   margin-top: 55px;
@@ -195,6 +215,11 @@ margin: 10px;
   padding:  4px;
   border: none;
   border-radius: 3px;
+}
+.menu-img button:hover{
+  background-color: red;
+  cursor: pointer;
+  
 }
 .cards{
   display: flex;
@@ -214,11 +239,8 @@ margin: 10px;
 }
 /*------------------Footers------------- */
 .icons{
-  text-align: center;
-}
-.icons{
  width: 100%;
- 
+ text-align: center;
  padding: 20px;
  height: 300px;
  font-size: 40px;
@@ -226,6 +248,9 @@ margin: 10px;
 }
 .icons span{
   padding: 10px;
+}
+.icons span:hover{
+  cursor: pointer;
 }
 .icons p{
   font-size: 16px;

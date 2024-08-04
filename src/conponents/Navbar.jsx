@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/logo.jpg'
+import Logo from '../assets/logo.webp'
 import BackImg from './BackImg'
 import FoodMenu from './FoodMenu'
 import Footer from './Footer'
